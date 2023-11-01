@@ -16,23 +16,21 @@ const Hero = () => (
       description={
         <>
           <span>
-            <span>
-              Step into the dynamic world of full-stack web development 🧑🏼‍💻📈
-            </span>
+            Do you want to conquer the dynamic world of full-stack web
+            development? 🧑🏼‍💻📈 <br />
             CodeBarracks offers essential{' '}
             <span className="text-cyan-400">courses</span>, insightful{' '}
             <span className="text-cyan-400">ebooks</span>, and hands-on
             <span className="text-cyan-400"> tutorials </span> tailored for
-            every aspiring developer. Let's hone your skills and craft
-            exceptional web experiences together. Dive in, and let's transform
-            the digital canvas!
+            every aspiring developer. Hone your skills and craft exceptional web
+            experiences. Dive in right now, and transform the digital canvas!
           </span>
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="/assets/images/developer.svg"
           alt="Avatar image"
           loading="lazy"
         />
