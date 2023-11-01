@@ -10,20 +10,23 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Welcome to <GradientText>CodeBarracks</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          <span>
+            <span>
+              Step into the dynamic world of full-stack web development 🧑🏼‍💻📈
+            </span>
+            CodeBarracks offers essential{' '}
+            <span className="text-cyan-400">courses</span>, insightful{' '}
+            <span className="text-cyan-400">ebooks</span>, and hands-on
+            <span className="text-cyan-400"> tutorials </span> tailored for
+            every aspiring developer. Let's hone your skills and craft
+            exceptional web experiences together. Dive in, and let's transform
+            the digital canvas!
+          </span>
         </>
       }
       avatar={
@@ -36,7 +39,7 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
@@ -53,8 +56,8 @@ const Hero = () => (
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
-          </a>
-          <a href="/">
+          </a> */}
+          <a href="https://www.youtube.com/@codebarracks">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
